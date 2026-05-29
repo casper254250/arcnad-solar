@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcnad Solar | Solar Energy Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+<body>
+
+<!-- ==================== OVERLAY & FLOATING BUTTONS ==================== -->
+
+<!-- Dark overlay for mobile menu -->
+<div class="nav-overlay" id="navOverlay"></div>
+
+<!-- Floating WhatsApp Button - Fixed position bottom right -->
+<a href="https://wa.me/254714311669?text=Hello%20Arcnad%20Solar%2C%20I%27m%20interested%20in%20your%20solar%20services" 
+   class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Chat with us!</span>
+</a>
+
+<!-- ==================== HEADER / NAVIGATION ==================== -->
+<header>
+    <div class="logo">
+        <div class="logo-icon">
+            <img src="images/favicon.png" alt="Arcnad Solar Logo">
+        </div>
+        <div class="logo-word">Arcnad Solar</div>
+    </div>
+    <nav id="mainNav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Hamburger menu button - visible only on mobile -->
+    <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</header>
+
+<!-- ==================== HOME SECTION ==================== -->
+<section id="home" class="page-section">
+    <section class="hero hero-slideshow">
+        <div class="hero-content">
+            <h1>Powering a Greener Tomorrow<br>with Solar Energy</h1>
+            <p>We provide sustainable energy and electrical solutions for homes and businesses, helping you save money while protecting the planet.</p>
+            <a href="#contact" class="btn">GET A FREE QUOTE →</a>
+        </div>
+    </section>
+</section>
+
+<!-- ==================== ABOUT SECTION ==================== -->
+<section id="about" class="page-section">
+    <section class="page-hero">
+        <div class="hero-tag">🏆 Our Story</div>
+        <h1 style="color: var(--primary);">About Arcnad Solar</h1>
+        <p>Leading the renewable energy revolution in Kenya with engineering precision and sustainability at heart.</p>
+    </section>
+
+    <section class="section">
+        <div class="about-container">
+            <div class="about-text">
+                <h3 style="color: var(--primary);">Leading the Renewable Energy Revolution</h3>
+                <p>We believe in a future powered by clean, reliable, and sustainable energy. With a strong technical background in systems design and infrastructure, we analyze your exact power consumption metrics to build solar networks that do not fail.</p>
+                <p>Whether you need a simple solar water heating setup for a residential property or a complex, high‑capacity inverter system for a commercial business in Nairobi, our engineering and installation protocols are built on uncompromising precision and safety.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">250+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/about.png" alt="Arcnad Solar engineers at work">
+                <div class="about-image-badge">Est. 2018</div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- ==================== SERVICES SECTION ==================== -->
+<section id="services" class="page-section">
+    <section class="page-hero">
+        <div class="hero-tag">⚡ What We Offer</div>
+        <h1 style="color: var(--primary);">Our Services</h1>
+        <p>Professional solar and electrical services tailored to your needs.</p>
+    </section>
+
+    <section class="section" style="background: var(--bg-light);">
+        <div class="services-grid">
+            <!-- Service 1: Solar Panel Installation -->
+            <div class="service-card reveal">
+                <div class="service-image">
+                    <img src="images/service-panel.jpg" alt="Solar Panel Installation">
+                </div>
+                <div class="service-content">
+                    <div class="service-icon">🪟</div>
+                    <h3>Solar Panel Installation</h3>
+                    <p>Professional design and mounting of solar panels for homes, businesses, and institutions. We handle everything from roof assessment to final connection, ensuring maximum sunlight exposure and optimal energy generation for your property.</p>
+                </div>
+            </div>
+            
+            <!-- Service 2: Solar Battery Storage -->
+            <div class="service-card reveal">
+                <div class="service-image">
+                    <img src="images/service-battery.jpg" alt="Solar Battery Storage">
+                </div>
+                <div class="service-content">
+                    <div class="service-icon">🔋</div>
+                    <h3>Solar Battery Storage</h3>
+                    <p>Backup systems to store excess solar energy for use during power outages, nighttime, or cloudy days. We install high-capacity lithium-ion and lead-acid batteries that automatically switch on when grid power fails.</p>
+                </div>
+            </div>
+            
+            <!-- Service 3: Inverter Installation -->
+            <div class="service-card reveal">
+                <div class="service-image">
+                    <img src="images/service-inverter.jpg" alt="Inverter Installation">
+                </div>
+                <div class="service-content">
+                    <div class="service-icon">⚡</div>
+                    <h3>Inverter Installation</h3>
+                    <p>Reliable conversion of solar DC power into usable AC electricity for your appliances. We supply and install pure sine wave, hybrid, and off-grid inverters sized perfectly for your energy consumption needs.</p>
+                </div>
+            </div>
+            
+            <!-- Service 4: Solar Water Heating -->
+            <div class="service-card reveal">
+                <div class="service-image">
+                    <img src="images/service-waterheater.jpg" alt="Solar Water Heating">
+                </div>
+                <div class="service-content">
+                    <div class="service-icon">💧</div>
+                    <h3>Solar Water Heating</h3>
+                    <p>Eco‑friendly hot water solutions that reduce electricity bills by up to 70%. We install both compact and split system solar water heaters for residential and commercial properties.</p>
+                </div>
+            </div>
+            
+            <!-- Service 5: System Design & Consultation -->
+            <div class="service-card reveal">
+                <div class="service-image">
+                    <img src="images/service-design.jpg" alt="System Design & Consultation">
+                </div>
+                <div class="service-content">
+                    <div class="service-icon">📐</div>
+                    <h3>System Design & Consultation</h3>
+                    <p>Customized solar setups based on your energy needs, load analysis, roof space, and budget. Our engineers provide free site visits and detailed proposals before any installation begins.</p>
+                </div>
+            </div>
+            
+            <!-- Service 6: Maintenance & Repairs -->
+            <div class="service-card reveal">
+                <div class="service-image">
+                    <img src="images/service-maintenance.jpg" alt="Maintenance & Repairs">
+                </div>
+                <div class="service-content">
+                    <div class="service-icon">🛠️</div>
+                    <h3>Maintenance & Repairs</h3>
+                    <p>Regular servicing, panel cleaning, system inspections, and troubleshooting to keep your solar system running at peak efficiency. We offer warranty support and emergency repair services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- ==================== PRODUCTS SECTION ==================== -->
+<section id="products" class="page-section">
+    <section class="page-hero">
+        <div class="hero-tag">🛒 Shop</div>
+        <h1 style="color: var(--primary);">Our Products</h1>
+        <p>High-quality solar products and electrical components for all your energy needs.</p>
+    </section>
+
+    <section class="section" style="background: var(--bg-light);">
+        <div class="products-grid">
+            <!-- Product 1: Solar Panels -->
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <img src="images/product-panel.jpg" alt="Solar Panels">
+                </div>
+                <div class="product-content">
+                    <div class="product-icon">🪟</div>
+                    <h3>Solar Panels</h3>
+                    <p>High-efficiency monocrystalline and polycrystalline solar panels ranging from 100W to 600W. Perfect for homes, businesses, and institutions. Durable, weather-resistant, with 25-year performance warranty.</p>
+                    <div class="product-features">
+                        <span>✅ 25-yr Warranty</span>
+                        <span>✅ 100W-600W</span>
+                        <span>✅ Weatherproof</span>
+                    </div>
+                    <button class="product-view-btn" onclick="openProductModal('Solar Panels')">📋 View All Models →</button>
+                </div>
+            </div>
+            
+            <!-- Product 2: Solar Batteries -->
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <img src="images/product-battery.jpg" alt="Solar Batteries">
+                </div>
+                <div class="product-content">
+                    <div class="product-icon">🔋</div>
+                    <h3>Solar Batteries</h3>
+                    <p>Lithium‑ion and deep-cycle lead‑acid batteries for dependable backup power. Available in 12V, 24V, and 48V configurations. Long cycle life, fast charging, and low maintenance design.</p>
+                    <div class="product-features">
+                        <span>✅ 5-yr Warranty</span>
+                        <span>✅ 12V-48V</span>
+                        <span>✅ Fast Charging</span>
+                    </div>
+                    <button class="product-view-btn" onclick="openProductModal('Solar Batteries')">📋 View All Models →</button>
+                </div>
+            </div>
+            
+            <!-- Product 3: Inverters -->
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <img src="images/product-inverter.jpg" alt="Inverters">
+                </div>
+                <div class="product-content">
+                    <div class="product-icon">⚡</div>
+                    <h3>Inverters</h3>
+                    <p>Pure sine wave, hybrid, and off-grid inverters from 1kW to 20kW capacity. Converts DC solar power into clean AC electricity for all your appliances. Includes LCD display and smart monitoring features.</p>
+                    <div class="product-features">
+                        <span>✅ 3-yr Warranty</span>
+                        <span>✅ 1kW-20kW</span>
+                        <span>✅ LCD Display</span>
+                    </div>
+                    <button class="product-view-btn" onclick="openProductModal('Inverters')">📋 View All Models →</button>
+                </div>
+            </div>
+            
+            <!-- Product 4: Charge Controllers -->
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <img src="images/product-controller.jpg" alt="Charge Controllers">
+                </div>
+                <div class="product-content">
+                    <div class="product-icon">🎛️</div>
+                    <h3>Charge Controllers</h3>
+                    <p>MPPT and PWM charge controllers to regulate solar charging safely. Prevents battery overcharging, extends battery life, and maximizes solar energy harvest. Suitable for 12V to 48V systems.</p>
+                    <div class="product-features">
+                        <span>✅ MPPT/PWM</span>
+                        <span>✅ 20A-100A</span>
+                        <span>✅ Overcharge Safe</span>
+                    </div>
+                    <button class="product-view-btn" onclick="openProductModal('Charge Controllers')">📋 View All Models →</button>
+                </div>
+            </div>
+            
+            <!-- Product 5: Solar Water Heaters -->
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <img src="images/product-waterheater.jpg" alt="Solar Water Heaters">
+                </div>
+                <div class="product-content">
+                    <div class="product-icon">💧</div>
+                    <h3>Solar Water Heaters</h3>
+                    <p>Compact and split system solar water heaters in 100L, 200L, and 300L capacities. Reduces electricity bills by up to 70%. Includes durable tanks and high-efficiency collector panels.</p>
+                    <div class="product-features">
+                        <span>✅ Save 70%</span>
+                        <span>✅ 100L-300L</span>
+                        <span>✅ Durable Tank</span>
+                    </div>
+                    <button class="product-view-btn" onclick="openProductModal('Solar Water Heaters')">📋 View All Models →</button>
+                </div>
+            </div>
+            
+            <!-- Product 6: Solar Cables & Wires -->
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <img src="images/product-cables.jpg" alt="Solar Cables & Wires">
+                </div>
+                <div class="product-content">
+                    <div class="product-icon">🔌</div>
+                    <h3>Solar Cables & Wires</h3>
+                    <p>UV-resistant, weatherproof solar cables and MC4 connectors for safe and efficient solar connections. Available in 4mm², 6mm², and 10mm² sizes. High conductivity and durable insulation.</p>
+                    <div class="product-features">
+                        <span>✅ UV Resistant</span>
+                        <span>✅ 4-10mm²</span>
+                        <span>✅ MC4 Ready</span>
+                    </div>
+                    <button class="product-view-btn" onclick="openProductModal('Solar Cables & Wires')">📋 View All Models →</button>
+                </div>
+            </div>
+            
+            <!-- Product 7: LED Bulbs & Lighting -->
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <img src="images/product-led.jpg" alt="LED Bulbs & Lighting">
+                </div>
+                <div class="product-content">
+                    <div class="product-icon">💡</div>
+                    <h3>LED Bulbs & Lighting</h3>
+                    <p>Energy‑efficient LED bulbs, floodlights, and solar street lights. Available from 5W to 100W. Long lifespan of 50,000+ hours, bright illumination, and low power consumption.</p>
+                    <div class="product-features">
+                        <span>✅ 50,000+ hrs</span>
+                        <span>✅ 5W-100W</span>
+                        <span>✅ Low Power</span>
+                    </div>
+                    <button class="product-view-btn" onclick="openProductModal('LED Bulbs & Lighting')">📋 View All Models →</button>
+                </div>
+            </div>
+            
+            <!-- Product 8: Extensions & Power Strips -->
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <img src="images/product-extensions.jpg" alt="Extensions & Power Strips">
+                </div>
+                <div class="product-content">
+                    <div class="product-icon">🔌</div>
+                    <h3>Extensions & Power Strips</h3>
+                    <p>High-quality power strips and extension cables with surge protection, overload safety, and multiple outlets. Perfect for connecting multiple devices safely in homes and offices.</p>
+                    <div class="product-features">
+                        <span>✅ Surge Safe</span>
+                        <span>✅ Multi Outlet</span>
+                        <span>✅ USB Ports</span>
+                    </div>
+                    <button class="product-view-btn" onclick="openProductModal('Extensions & Power Strips')">📋 View All Models →</button>
+                </div>
+            </div>
+            
+            <!-- Product 9: Fridge Guards & Surge Protectors -->
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <img src="images/product-guards.jpg" alt="Fridge Guards & Surge Protectors">
+                </div>
+                <div class="product-content">
+                    <div class="product-icon">🛡️</div>
+                    <h3>Fridge Guards & Surge Protectors</h3>
+                    <p>Protect your refrigerator, TV, computer, and other sensitive appliances from voltage fluctuations, power surges, and lightning strikes. Auto shut-off and reset features for safety.</p>
+                    <div class="product-features">
+                        <span>✅ Voltage Safe</span>
+                        <span>✅ Auto Shut-off</span>
+                        <span>✅ 3-yr Warranty</span>
+                    </div>
+                    <button class="product-view-btn" onclick="openProductModal('Fridge Guards & Surge Protectors')">📋 View All Models →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- ==================== PROJECTS SECTION ==================== -->
+<section id="projects" class="page-section">
+    <section class="page-hero">
+        <div class="hero-tag">📁 Portfolio</div>
+        <h1 style="color: var(--primary);">Our Recent Installations</h1>
+        <p>A visual technical record of our successful solar and electrical deployments across Kenya.</p>
+    </section>
+
+    <section class="section" style="background: var(--bg-light);">
+        <div class="gallery-grid">
+            <!-- Gallery items 1-10 -->
+            <div class="gallery-item reveal"><img src="images/1.jpg" alt="Commercial Solar Installation"><div class="gallery-overlay"><span>Commercial Solar Installation</span></div></div>
+            <div class="gallery-item reveal"><img src="images/2.jpg" alt="Residential Solar Water Heater"><div class="gallery-overlay"><span>Residential Solar Water Heater</span></div></div>
+            <div class="gallery-item reveal"><img src="images/3.jpg" alt="Inverter & Battery Bank"><div class="gallery-overlay"><span>Inverter & Battery Bank</span></div></div>
+            <div class="gallery-item reveal"><img src="images/4.jpg" alt="Electrical Panel Wiring"><div class="gallery-overlay"><span>Electrical Panel Wiring</span></div></div>
+            <div class="gallery-item reveal"><img src="images/5.jpg" alt="Roof Panel Mounting"><div class="gallery-overlay"><span>Roof Panel Mounting</span></div></div>
+            <div class="gallery-item reveal"><img src="images/6.jpg" alt="Complete System Testing"><div class="gallery-overlay"><span>Complete System Testing</span></div></div>
+            <div class="gallery-item reveal"><img src="images/7.jpg" alt="Solar Farm Installation"><div class="gallery-overlay"><span>Solar Farm Installation</span></div></div>
+            <div class="gallery-item reveal"><img src="images/8.jpg" alt="Business Solar Setup"><div class="gallery-overlay"><span>Business Solar Setup</span></div></div>
+            <div class="gallery-item reveal"><img src="images/9.jpg" alt="Solar Street Lights"><div class="gallery-overlay"><span>Solar Street Lights</span></div></div>
+            <div class="gallery-item reveal"><img src="images/10.jpg" alt="Hybrid Solar System"><div class="gallery-overlay"><span>Hybrid Solar System</span></div></div>
+        </div>
+    </section>
+</section>
+
+<!-- ==================== TESTIMONIALS SECTION ==================== -->
+<section id="testimonials" class="page-section">
+    <section class="page-hero">
+        <div class="hero-tag">⭐ Client Reviews</div>
+        <h1 style="color: var(--primary);">What Our Clients Say</h1>
+        <p>Real feedback from clients who have upgraded their energy infrastructure with Arcnad Solar.</p>
+    </section>
+
+    <!-- Statistics bar -->
+    <section style="background: var(--primary); padding: 40px 6%;">
+        <div class="stats-container">
+            <div><div class="counter-number" style="font-family: 'Playfair Display', serif; font-size: 42px; font-weight: 900;">250+</div><div>Projects Completed</div></div>
+            <div><div class="counter-number" style="font-size: 42px; font-weight: 900;">98%</div><div>Client Satisfaction</div></div>
+            <div><div class="counter-number" style="font-size: 42px; font-weight: 900;">4.9/5</div><div>Average Rating</div></div>
+            <div><div class="counter-number" style="font-size: 42px; font-weight: 900;">8+</div><div>Years Experience</div></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="testimonials-grid">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p>"The solar water heating system installed by Arcnad has completely removed our reliance on the grid. Highly professional."</p>
+                <div class="client-info"><div class="client-avatar">JK</div><div><p class="client-name">James K.</p><div class="client-role">Homeowner, Nairobi</div></div></div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p>"We needed a robust inverter setup for our servers. Arcnad delivered a perfectly calibrated battery bank system. Unbeatable."</p>
+                <div class="client-info"><div class="client-avatar">SM</div><div><p class="client-name">Sarah M.</p><div class="client-role">IT Director, Kiambu</div></div></div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p>"From load calculations to final mounting, the process was seamless. Cut our bills by 70%."</p>
+                <div class="client-info"><div class="client-avatar">DO</div><div><p class="client-name">David O.</p><div class="client-role">Business Owner, Nakuru</div></div></div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- ==================== CONTACT SECTION ==================== -->
+<section id="contact" class="page-section">
+    <section class="page-hero">
+        <div class="hero-tag">📞 Get in Touch</div>
+        <h1 style="color: var(--primary);">Contact Us</h1>
+        <p>Request a free quote, schedule a consultation, or ask any question.</p>
+    </section>
+
+    <section class="section">
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Phone Number">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn">SEND MESSAGE →</button>
+                </form>
+            </div>
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="footer-contact-item"><span class="fc-icon">📍</span><span>Maridadi Plaza, Ambala road Nyamakima, Nairobi, Kenya</span></div>
+                <div class="footer-contact-item"><span class="fc-icon">📞</span><span>+254 714 311 669</span></div>
+                <div class="footer-contact-item"><span class="fc-icon">✉️</span><span>info@arcnadsolar.co.ke</span></div>
+                <div class="info-item"><h4>🕒 Hours</h4><p>Mon-Fri: 8am–6pm<br>Sat: 9am–2pm</p></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Google Map Section -->
+    <section class="map-section">
+        <h3 class="map-title">Find Us Here</h3>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.811765297079!2d36.819416!3d-1.286330!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d5b6f4e8b7%3A0x8a9e7c5f3d2b1a4e!2sMaridadi%20Plaza%2C%20Ambala%20Road%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske" width="100%" height="400" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="map-address">
+            <p><i class="fas fa-map-pin"></i> Maridadi Plaza, Ambala Road Nyamakima, Nairobi, Kenya</p>
+            <p><i class="fas fa-clock"></i> Mon-Fri: 8am - 6pm | Sat: 9am - 2pm</p>
+        </div>
+    </section>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer>
+    <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+            <div class="logo">
+                <div class="logo-icon">☀️</div>
+                <div class="logo-word">Arcnad Solar</div>
+            </div>
+            <p>Reliable solar and electrical solutions for homes, businesses, and industries across Kenya.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/arcnadelectricals" target="_blank" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com/arcnadsolar" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com/@arcnadsolar" target="_blank" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+        <!-- Quick Links -->
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+        <!-- Services Links -->
+        <div class="footer-col">
+            <h4>Our Services</h4>
+            <ul>
+                <li><a href="#services">Solar Panels</a></li>
+                <li><a href="#services">Inverters & Batteries</a></li>
+                <li><a href="#services">Water Heaters</a></li>
+                <li><a href="#services">Maintenance</a></li>
+            </ul>
+        </div>
+        <!-- Contact Column -->
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <div class="footer-contact-item"><span class="fc-icon">📍</span><span>Maridadi Plaza, Ambala road Nyamakima, Nairobi, Kenya</span></div>
+            <div class="footer-contact-item"><span class="fc-icon">📞</span><span>+254 714 311 669</span></div>
+            <div class="footer-contact-item"><span class="fc-icon">✉️</span><span>info@arcnadsolar.co.ke</span></div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Arcnad Solar and Electricals. All Rights Reserved.</p>
+        <p>Designed by CODETRIBE CREATIONS</p>
+    </div>
+</footer>
+
+<!-- ==================== PRODUCT POPUP MODAL ==================== -->
+<!-- This modal appears when user clicks "View All Models" on any product -->
+<div id="productModal" class="product-modal">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div id="modalDynamicContent">
+            <!-- Product details will be loaded dynamically by JavaScript -->
+        </div>
+    </div>
+</div>
+
+<!-- ==================== SCRIPTS ==================== -->
+<script src="main.js"></script>
+</body>
+</html>
